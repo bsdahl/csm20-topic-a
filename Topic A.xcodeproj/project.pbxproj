@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0016DD1B96805A006C5E0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0016DC1B96805A006C5E0F /* main.cpp */; };
+		CE0016DD1B96805A006C5E0F /* TopicA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0016DC1B96805A006C5E0F /* TopicA.cpp */; };
+		CE0016F51B968597006C5E0F /* soundtrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0016F31B968597006C5E0F /* soundtrack.cpp */; };
+		CE2FBE6C1B979ED500D3C8CA /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2FBE6A1B979ED500D3C8CA /* PrecondViolatedExcep.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,18 @@
 
 /* Begin PBXFileReference section */
 		CE0016D91B96805A006C5E0F /* Topic A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Topic A"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0016DC1B96805A006C5E0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE0016DC1B96805A006C5E0F /* TopicA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopicA.cpp; sourceTree = "<group>"; };
+		CE0016EA1B968109006C5E0F /* LinkedListValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListValue.h; sourceTree = "<group>"; };
+		CE0016F31B968597006C5E0F /* soundtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundtrack.cpp; sourceTree = "<group>"; };
+		CE0016F41B968597006C5E0F /* soundtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundtrack.h; sourceTree = "<group>"; };
+		CE0EA9D71B9FA4D600326501 /* Topic A Soundtrack List.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Topic A Soundtrack List.txt"; sourceTree = "<group>"; };
+		CE2FBE631B979E6000D3C8CA /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		CE2FBE641B979E6000D3C8CA /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		CE2FBE661B979E8000D3C8CA /* ListInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListInterface.h; sourceTree = "<group>"; };
+		CE2FBE671B979EB600D3C8CA /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		CE2FBE681B979EB600D3C8CA /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		CE2FBE6A1B979ED500D3C8CA /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		CE2FBE6B1B979ED500D3C8CA /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +70,18 @@
 		CE0016DB1B96805A006C5E0F /* Topic A */ = {
 			isa = PBXGroup;
 			children = (
-				CE0016DC1B96805A006C5E0F /* main.cpp */,
+				CE0016DC1B96805A006C5E0F /* TopicA.cpp */,
+				CE0EA9D71B9FA4D600326501 /* Topic A Soundtrack List.txt */,
+				CE0016F31B968597006C5E0F /* soundtrack.cpp */,
+				CE0016F41B968597006C5E0F /* soundtrack.h */,
+				CE0016EA1B968109006C5E0F /* LinkedListValue.h */,
+				CE2FBE631B979E6000D3C8CA /* LinkedList.cpp */,
+				CE2FBE641B979E6000D3C8CA /* LinkedList.h */,
+				CE2FBE661B979E8000D3C8CA /* ListInterface.h */,
+				CE2FBE671B979EB600D3C8CA /* Node.cpp */,
+				CE2FBE681B979EB600D3C8CA /* Node.h */,
+				CE2FBE6A1B979ED500D3C8CA /* PrecondViolatedExcep.cpp */,
+				CE2FBE6B1B979ED500D3C8CA /* PrecondViolatedExcep.h */,
 			);
 			path = "Topic A";
 			sourceTree = "<group>";
@@ -118,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0016DD1B96805A006C5E0F /* main.cpp in Sources */,
+				CE0016F51B968597006C5E0F /* soundtrack.cpp in Sources */,
+				CE2FBE6C1B979ED500D3C8CA /* PrecondViolatedExcep.cpp in Sources */,
+				CE0016DD1B96805A006C5E0F /* TopicA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +258,7 @@
 				CE0016E21B96805A006C5E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
